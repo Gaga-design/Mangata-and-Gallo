@@ -1,0 +1,14 @@
+{
+  "name": "mangata-and-gallo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:fix": "stylelint \"**/*.css\" --fix"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^4.0.0",
+    "stylelint": "^16.24.0",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}
